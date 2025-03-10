@@ -96,9 +96,10 @@ section {
 }
 .home {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
   align-items: center;
-  height : 100vh;
+  gap : 20px;
 }
 .text-content {
   max-width: 70rem;
@@ -297,7 +298,8 @@ i:hover::after {
   top: 0;
 }
 .home img {
-  width: 30vw;
+  width: 60%;
+  max-width: 300px;
   background: rgba(172, 15, 15, 0.1);
   border: 0.2rem solid rgba(1, 1, 97, 0.213);
   border-radius: 50%;
@@ -707,6 +709,8 @@ footer i {
 @media (max-width: 768px) {
   #menu {
     display: block;
+
+@
   }
   .navbar {
     position: absolute;
@@ -757,4 +761,20 @@ footer i {
   .input-box inut {
     width: 100%;
   }
+}
+@media (min-width: 768px) {
+    .home {
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: left;
+    }
+
+    .home img {
+        width: 40%;
+        max-width: 400px;
+    }
+
+    .text-content {
+        width: 50%;
+    }
 }
