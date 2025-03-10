@@ -298,7 +298,7 @@ i:hover::after {
   top: 0;
 }
 .home img {
-  width: 100%;
+  width: 80%;
   max-width: 350px;
   background: rgba(172, 15, 15, 0.1);
   border: 0.2rem solid rgba(1, 1, 97, 0.213);
@@ -780,7 +780,7 @@ footer i {
 }
 @media (max-width: 767px) {
   .home img {
-    width: 90%;
+    width: 80%;
     max-width: 450px;
   }
 }
