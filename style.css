@@ -298,7 +298,7 @@ i:hover::after {
   top: 0;
 }
 .home img {
-  width: 80%;
+  width: 160%;
   max-width: 350px;
   background: rgba(172, 15, 15, 0.1);
   border: 0.2rem solid rgba(1, 1, 97, 0.213);
