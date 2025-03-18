@@ -615,11 +615,11 @@ input,
 textarea {
   width: 100%;
   padding: 1.5rem;
-  background: #0084ff;
-  border: 0.2rem solid #0739fe;
+  background: #0046ae72;
+  border: 0.2rem solid #0425b97d;
   outline: none;
   backdrop-filter: blur(10px);
-  filter: drop-shadow(0 0 100px #010758);
+  filter: drop-shadow(0 0 100px #01075823);
   border-radius: 0.8rem;
   gap: 2.5rem;
   margin: 0.7rem 0;
